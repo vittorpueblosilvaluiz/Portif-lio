@@ -1,11 +1,5 @@
 
 
-
-
-
-
-
-
 function ativaletra(elemento){
         const arrTexto = elemento.innerHTML.split(''); //Separando cada letra do texto
         elemento.innerHTML = ''; //Limpando o texto do elemento
@@ -18,3 +12,4 @@ function ativaletra(elemento){
         
 const titulo = document.querySelector('.digitando');
 ativaletra(titulo); //Chamando a função para ativar a animação de digitação no elemento
+
